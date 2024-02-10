@@ -1,0 +1,28 @@
+body, html {
+    margin-top: 8px;
+}
+
+table, th, td {
+    border-style: ridge;
+    text-align: center;
+}
+
+caption {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue
+}
+
+th {
+    background-color: cadetblue;
+}
+
+td[rowspan="6"] {
+    background-color: coral;
+    writing-mode: vertical-lr;
+    font-weight: bolder;
+}
+
+td.time {
+    background-color: darkolivegreen;
+}
